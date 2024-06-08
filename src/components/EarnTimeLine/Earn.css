@@ -1,0 +1,29 @@
+/* Stepper.css */
+.stepper-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.stepper-container h2 {
+  margin-bottom: 10px;
+}
+
+.stepper-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.step-content {
+  margin-top: 20px;
+}
+
+.step-content h3 {
+  font-size: 20px;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.step-content p {
+  font-size: 16px;
+  color: #333;
+}

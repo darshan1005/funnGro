@@ -1,0 +1,16 @@
+#nav{
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: #fffffff2;
+  z-index: 99;
+}
+
+.nav-link-custom{
+  font-weight: 500;
+  color: black;
+}
+
+.logo-img{
+  filter: invert(1);
+}
