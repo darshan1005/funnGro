@@ -53,3 +53,33 @@
 h6{
   color: rgba(0, 0, 0, 0.451);
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 535px) {
+  .main-panel {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .panel-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .panel {
+    height: auto;
+    padding: 10px;
+  }
+}

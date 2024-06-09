@@ -52,7 +52,7 @@ const ProjectCards = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    if (currentIndex < projectIdeas.length - 3) {
+    if (currentIndex < projectIdeas.length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
@@ -74,7 +74,7 @@ const ProjectCards = () => {
           <ArrowBackIcon />
         </button>
         <div className="card-container">
-          <div className="card-wrapper" style={{ transform: `translateX(-${currentIndex * 300}px)` }}>
+          <div className="card-wrapper" style={{ transform: `translateX(-${currentIndex * 320}px)` }}>
             {projectIdeas.map((idea, index) => (
               <div key={index} className="card">
                 <h3>{idea.title}</h3>
@@ -85,7 +85,7 @@ const ProjectCards = () => {
             ))}
           </div>
         </div>
-        <button className="next-btn" onClick={handleNext} disabled={currentIndex === projectIdeas.length - 3}>
+        <button className="next-btn" onClick={handleNext} disabled={currentIndex === projectIdeas.length - 1}>
           <ArrowForwardIcon />
         </button>
       </div>

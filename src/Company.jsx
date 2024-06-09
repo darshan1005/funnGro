@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroCompany from './components/Hero-company/Hero'
+import HeroCompany from './components/Hero-company/Hero-company'
 import Panel from './components/Panel/Panel'
 import ProjectCards from './components/Project-cards/ProjectCard'
 import CompanyWork from './components/Company-work/CompanyWork'

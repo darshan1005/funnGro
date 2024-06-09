@@ -14,7 +14,7 @@ const CompanyWork = () => {
           </p>
         </div>
         <div className="company-main">
-          <img src={Illustartion} alt="" />
+          <img className="illustration" src={Illustartion} alt="" />
           <div className="comapany-main-right">
             <h2>Innovation</h2>
             <p>

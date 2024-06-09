@@ -1,4 +1,4 @@
-.info{
+.info {
   display: flex;
   flex-direction: row;
   padding: 30px;
@@ -7,20 +7,72 @@
   gap: 2rem;
 }
 
-.info-img{
+.info-img {
   width: 30%;
   filter: invert(1);
 }
 
-.info-content{
+.info-content {
   padding: 20px;
   width: 50%;
 }
 
-.info-content h5{
+.info-content h5 {
   color: rgba(0, 0, 0, 0.416);
 }
 
-.info-content h4{
+.info-content h4 {
   color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    gap: 1rem;
+
+  }
+
+  .info-img {
+    width: 80%;
+  }
+
+  .info-content {
+    width: 100%;
+    padding: 15px;
+    margin-top: -4rem;
+  }
+
+  h2{
+    font-size: xx-large;
+  }
+
+  .info-content h5, .info-content h4 {
+    font-size: 1rem;
+  }
+
+  mark{
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .info {
+    padding: 15px;
+    gap: 0.5rem;
+  }
+
+  .info-img {
+    width: 100%;
+  }
+
+  .info-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .info-content h5, .info-content h4 {
+    font-size: 0.9rem;
+  }
 }

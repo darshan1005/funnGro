@@ -1,4 +1,4 @@
-.CompanyWork{
+.CompanyWork {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.company-main{
+.company-main {
   width: 90%;
   display: flex;
   align-items: center;
@@ -17,16 +17,62 @@
   margin: 0 auto;
 }
 
-.comapany-main-right p{
+.company-main-right p {
   width: 90%;
 }
 
-.main-buttons{
+.main-buttons {
   display: flex;
   gap: 1rem;
 }
 
-.begin{
+.begin {
   background: rgb(99, 99, 255);
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .company-main {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 1.5rem;
+  }
+
+  .company-main-right p {
+    width: 100%;
+  }
+
+  .main-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .begin {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .company-main {
+    padding: 15px;
+    gap: 1rem;
+  }
+
+  .illustration{
+    width: 95%;
+  }
+
+  .company-main-right p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .begin {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
 }
