@@ -76,7 +76,7 @@
   color: #333;
 }
 
-@media (max-width: 535px) {
+@media screen and (max-width: 535px) {
   .work-teen {
     padding: 10px;
   }
