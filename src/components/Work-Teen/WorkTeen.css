@@ -75,3 +75,41 @@
   font-size: 1em;
   color: #333;
 }
+
+@media (max-width: 535px) {
+  .work-teen {
+    padding: 10px;
+  }
+
+  .work-teen-main {
+    max-width: 100%;
+  }
+
+  .work-teen-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+
+  .work-teen-content p {
+    font-size: 1em;
+  }
+
+  .work-teen-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .card h5 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+
+  .card p {
+    font-size: 0.9em;
+  }
+}
